@@ -1,0 +1,181 @@
+
+
+.bioContainer > p {
+}
+
+.blurb {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+
+.blurb > p {
+    font-size: 20px;
+    margin: 5px;
+    color: #333;
+}
+
+.emailImage {
+  width: 64px;
+  height: 64px;
+}
+
+.even {
+   background-color: #e8e8e8;
+   color: #333;
+}
+
+footer {
+    display: block;
+    border-top: solid 1px black;
+    text-align: center;
+    width: 100%;
+}
+
+footer > * {
+    display: inline-block;
+}
+
+.footer-emailImage {
+    height: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #333;
+    font-size: 36px;
+    margin: 5px;
+}
+h2{
+    color: #333;
+    font-size: 24px;
+    margin: 0px; 
+}
+
+h3 {
+    color: #333;
+    display: block;
+    font-size: 24px;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+h4  {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+html {
+    background-color: #e8e8e8
+}
+
+main{
+  margin-top: 100px;
+  text-align: center;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    color: #f2f2f2;
+    border-bottom: solid 1px black;
+    background-color: #333;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+}
+
+
+nav > div > * {
+    display: inline-block;
+}
+
+nav > div > a {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+
+.navBarContainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.odd {
+  background-color: #333;
+  color: #e8e8e8
+}
+
+.personal {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.personal > a {
+    padding: 10px;
+}
+
+.projectImage {
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.projectInfo {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.projectInfo > p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.projectInfo > div > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: #333 1px dashed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.techStack {
+    display: inline-block;
+    width: 49%;
+}
+
+.websiteImage {
+    width: 100%;
+    padding: 5%;
+}
