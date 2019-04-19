@@ -112,6 +112,15 @@ nav > div > a {
     text-decoration: none;
 }
 
+nav > div > span > a {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
 
 .navBarContainer {
     position: relative;
@@ -124,6 +133,40 @@ nav > div > a {
 .odd {
   background-color: #333;
   color: #e8e8e8
+}
+
+.odd > .projectImage > a {
+    font-size: 20px;
+    padding: 10px;
+    color: #e8e8e8;
+    display: inline-block;
+}
+
+.odd > .projectImage > .first:hover {
+    transform: rotate(-20deg);
+}
+
+.odd > .projectImage > .second:hover {
+    transform: rotate(20deg);
+}
+
+.even > .projectImage > a {
+    font-size: 20px;
+    padding: 10px;
+    color: #333;
+    display: inline-block;
+}
+
+.even > .projectImage > .first:hover {
+    transform: rotate(-20deg);
+}
+
+.even > .projectImage > .second:hover {
+    transform: rotate(20deg);
+}
+
+.projectImage > a {
+   transition: all 0.25s ease-in-out 0s; 
 }
 
 .personal {
@@ -185,12 +228,17 @@ section {
     padding: 5%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
     .blurb {
         display: block;
         width: 100%;
         text-align: center;
     }
+    
+    .navABlock {
+        display: block;
+    }
+
     .personal {
         display: block;
         width: 100%;
@@ -198,10 +246,12 @@ section {
     .projectImage {
         order: 2;
         width: 100%;
+        padding: 5px;
     }
     .projectInfo {
         order: 1;
         width: 100%;
+        padding: 5px;
     }
     section {
         flex-direction: column;
