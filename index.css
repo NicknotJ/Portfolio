@@ -1,8 +1,3 @@
-
-
-.bioContainer > p {
-}
-
 .blurb {
     display: inline-block;
     width: 49%;
@@ -34,10 +29,6 @@ footer {
 
 footer > * {
     display: inline-block;
-}
-
-.footer-emailImage {
-    height: 30px;
 }
 
 * {
