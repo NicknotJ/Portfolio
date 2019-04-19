@@ -74,6 +74,20 @@ h4  {
     margin-bottom: 0px;
 }
 
+h5 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+h6 {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 14px
+}
+
 .even > div > h4{
     color: #333;
 }
