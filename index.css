@@ -75,7 +75,7 @@ h4  {
 }
 
 h5 {
-  padding-bottom: 0px;
+  padding-bottom: 5px;
   margin-bottom: 0px;
   font-size: 16px;
 }
@@ -243,6 +243,32 @@ section {
     padding: 5%;
 }
 
+@media only screen and (max-width: 415px) {
+    .techStack {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navABlock {
+        display: block;
+    }
+
+    .linkedInTop {
+      margin-right: 0px;
+    }
+
+    .gitHubTop {
+    }
+
+    .gitHubTop, .linkedInTop {
+        margin-left: 0px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .blurb {
         display: block;
@@ -266,22 +292,5 @@ section {
     }
     section {
         flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .navABlock {
-        display: block;
-    }
-
-    .linkedInTop {
-      margin-right: 0px;
-    }
-
-    .gitHubTop {
-    }
-
-    .gitHubTop, .linkedInTop {
-        margin-left: 0px;
     }
 }
