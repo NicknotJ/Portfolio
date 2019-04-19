@@ -74,6 +74,10 @@ h4  {
     margin-bottom: 0px;
 }
 
+.even > div > h4{
+    color: #333;
+}
+
 html {
     background-color: #e8e8e8
 }
@@ -159,6 +163,7 @@ nav > div > a {
 
 section {
     display: flex;
+    flex-wrap: wrap;
     width: 90%;
     max-width: 1000px;
     margin-left: auto;
@@ -178,4 +183,27 @@ section {
 .websiteImage {
     width: 100%;
     padding: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    .blurb {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .personal {
+        display: block;
+        width: 100%;
+    }
+    .projectImage {
+        order: 2;
+        width: 100%;
+    }
+    .projectInfo {
+        order: 1;
+        width: 100%;
+    }
+    section {
+        flex-direction: column;
+    }
 }
