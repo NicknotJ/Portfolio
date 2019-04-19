@@ -234,10 +234,6 @@ section {
         width: 100%;
         text-align: center;
     }
-    
-    .navABlock {
-        display: block;
-    }
 
     .personal {
         display: block;
@@ -255,5 +251,22 @@ section {
     }
     section {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navABlock {
+        display: block;
+    }
+
+    .linkedInTop {
+      margin-right: 0px;
+    }
+
+    .gitHubTop {
+    }
+
+    .gitHubTop, .linkedInTop {
+        margin-left: 0px;
     }
 }
