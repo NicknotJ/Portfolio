@@ -262,7 +262,7 @@ section > .contactBox {
 
 }
 
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 635px) {
     nav > div > a, nav > div > span > a {
         padding-left: 0px;
         padding-right: 0px;
