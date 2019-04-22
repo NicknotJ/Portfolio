@@ -2,10 +2,12 @@
     display: inline-block;
     width: 49%;
     text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .blurb > p {
-    font-size: 20px;
+    font-size: 22px;
     margin: 5px;
     color: #333;
 }
@@ -224,6 +226,15 @@ section {
     padding-bottom: 5px;
 }
 
+section > .contactBox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
 .techStack {
     display: inline-block;
     width: 49%;
@@ -243,22 +254,24 @@ section {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
+
     .navABlock {
-        display: block;
+        display: none;
     }
 
-    .linkedInTop {
-      margin-right: 0px;
-    }
+}
 
-    .gitHubTop {
-    }
-
-    .gitHubTop, .linkedInTop {
-        margin-left: 0px;
+@media only screen and (max-width: 585px) {
+    nav > div > a, nav > div > span > a {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
+
+
 
 @media only screen and (max-width: 1000px) {
     .blurb {
