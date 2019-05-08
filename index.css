@@ -65,6 +65,9 @@ h4  {
     font-size: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 h5 {
@@ -81,7 +84,7 @@ h6 {
   font-size: 14px
 }
 
-.even > div > h4{
+.even > h4{
     color: #333;
 }
 
@@ -142,6 +145,10 @@ nav > div > span > a {
   color: #e8e8e8
 }
 
+.odd > .projectImage {
+    display: block;
+}
+
 .odd > .projectImage > a {
     font-size: 20px;
     padding: 10px;
@@ -187,7 +194,6 @@ nav > div > span > a {
 }
 
 .projectImage {
-    display: inline-block;
     width: 49%;
     box-sizing: border-box;
 }
