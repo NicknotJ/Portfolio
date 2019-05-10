@@ -31,6 +31,11 @@ body {
     margin-bottom: 0px;
 }
 
+#contactBox > h4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #contactBox > h4 > a {
     text-decoration: underline;
     color: #e8e8e8;
@@ -311,17 +316,32 @@ section > .contactBox {
     object-fit: cover;
 }
 
+@media only screen and (max-width: 449px) {
+    .bottom1 {
+      bottom: 80px;
+    }
+    .bottom2 {
+      bottom: 10px;
+    }
+}
+
 @media only screen and (max-width: 520px) {
     .navABlock {
         display: none;
     }
 }
 
+@media only screen and (max-width: 550px) {
+  .project {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
     .blurb {
         width: 80%;
     }
-
     .left {
         left: 5%;
     }
