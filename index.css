@@ -140,10 +140,6 @@ html {
     background-color: rgba(0, 0, 0, 0.985);
 }
 
-.left {
-  left: 15%;
-}
-
 main {
   text-align: center;
 }
@@ -276,10 +272,6 @@ nav > div > span > a {
     padding: 0;
 }
 
-.right {
-  right: 15%;
-}
-
 section {
     display: flex;
     flex-wrap: wrap;
@@ -323,6 +315,24 @@ section > .contactBox {
     .bottom2 {
       bottom: 10px;
     }
+    .blurb {
+      width: 80%;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    .heroImage {
+      height: 340px;
+    }
+    .left {
+      left: 5%;
+    }
+    .right {
+      right: 5%;
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -338,7 +348,7 @@ section > .contactBox {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 450px) {
     .blurb {
         width: 80%;
     }
@@ -347,6 +357,16 @@ section > .contactBox {
     }
     .right {
         right: 5%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .left {
+        left: 15%;
+    }
+    
+    .right {
+        right: 15%;
     }
 }
 
