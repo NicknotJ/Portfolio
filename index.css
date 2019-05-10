@@ -4,10 +4,9 @@
 
 .blurb {
     display: inline-block;
-    width: 49%;
+    width: 50%;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
 .blurb > p {
@@ -37,6 +36,9 @@ body {
     color: #e8e8e8;
 }
 
+#contactBox > h4 > a:hover {
+  font-size: 125%;
+}
 .emailImage {
   width: 64px;
   height: 64px;
@@ -45,9 +47,10 @@ body {
 footer {
     color: #e8e8e8;
     display: block;
-    border-top: solid 1px black;
+    border-top: solid 1px #e8e8e8;
     text-align: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 footer > * {
@@ -174,7 +177,6 @@ nav > div > span > a {
     text-decoration: none;
 }
 
-
 .navBarContainer {
     position: relative;
     margin-left: auto;
@@ -190,6 +192,8 @@ nav > div > span > a {
     margin-right: 1.5%;
     display: inline-block;
     border-radius: 5px;
+    height: 700px;
+    vertical-align: top;
 }
 .project > h4 {
     color: rgba(0, 0, 0, 0.985);
@@ -218,7 +222,7 @@ nav > div > span > a {
 
 .personal {
     display: inline-block;
-    width: 49%;
+    width: 50%;
     text-align: center;
     color: #f2f2f2
 }
@@ -238,7 +242,8 @@ nav > div > span > a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid rgba(0, 0, 0, 0.985);
+    border-top: 1px solid rgba(0, 0, 0, 0.985);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.985);
 }
 
 .projectInfo {
@@ -261,6 +266,11 @@ nav > div > span > a {
     padding: 0;
 }
 
+.projectInfo > div > ul > li {
+    margin: 0;
+    padding: 0;
+}
+
 .right {
   right: 15%;
 }
@@ -268,7 +278,6 @@ nav > div > span > a {
 section {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
@@ -282,17 +291,24 @@ section > .contactBox {
     padding: 0px;
     margin: 0px;
     padding-bottom: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .techStack {
-    display: inline-block;
-    width: 49%;
+    text-align: center;
+}
+
+.techStack > p {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .websiteImage {
     width: 100%;
     padding: 2%;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 415px) {
