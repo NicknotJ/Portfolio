@@ -312,27 +312,23 @@ section > .contactBox {
     .bottom1 {
       bottom: 80px;
     }
-    .bottom2 {
-      bottom: 10px;
-    }
     .blurb {
       width: 80%;
     }
     h1 {
+      left: 50%;
+      transform: translate(-50%,0);
       font-size: 28px;
     }
     h2 {
+      left: 50%;
+      transform: translate(-50%,0);
       font-size: 20px;
     }
     .heroImage {
       height: 340px;
     }
-    .left {
-      left: 5%;
-    }
-    .right {
-      right: 5%;
-    }
+
 }
 
 @media only screen and (max-width: 520px) {
