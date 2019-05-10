@@ -311,15 +311,6 @@ section > .contactBox {
     object-fit: cover;
 }
 
-@media only screen and (max-width: 415px) {
-    .techStack {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 5px;
-    }
-}
-
 @media only screen and (max-width: 520px) {
     .navABlock {
         display: none;
@@ -381,7 +372,7 @@ section > .contactBox {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) and (min-width: 550px) {
     .project {
         width: 500px;
         margin-bottom: 30px;
