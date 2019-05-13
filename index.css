@@ -12,7 +12,7 @@
 .blurb > p {
     font-size: 22px;
     margin: 5px;
-    color: #e8e8e8;
+    color: #f2f2f2;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 
 #contactBox > h4 > a {
     text-decoration: underline;
-    color: #e8e8e8;
+    color: #f2f2f2;
 }
 
 #contactBox > h4 > a:hover {
@@ -49,10 +49,24 @@ body {
   height: 64px;
 }
 
+.first {
+    background-color: rgba(0, 0, 0, 0.985);
+    border: solid 1px rgba(0, 0, 0, 0.985);
+    color: #f2f2f2;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+
+.second {
+    border: solid 1px rgba(0, 0, 0, 0.985);
+    color: rgba(0, 0, 0, 0.985);
+    margin-left: 8px;
+}
+
 footer {
-    color: #e8e8e8;
+    color: #f2f2f2;
     display: block;
-    border-top: solid 1px #e8e8e8;
+    border-top: solid 1px #f2f2f2;
     text-align: center;
     width: 100%;
     margin-top: 30px;
@@ -64,12 +78,12 @@ footer > * {
 
 footer > a {
     text-decoration: underline;
-    color: #e8e8e8;
+    color: #f2f2f2;
 }
 
 * {
     box-sizing: border-box;
-    font-family: serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1{
@@ -79,6 +93,7 @@ h1{
     padding: 5px;
     border-radius: 5px;
     font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
 }
 h2{
     font-size: 24px;
@@ -87,6 +102,7 @@ h2{
     padding: 5px;
     border-radius: 5px;
     font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h3 {
@@ -98,6 +114,7 @@ h3 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
   }
 
 h4  {
@@ -108,12 +125,14 @@ h4  {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h5 {
   padding-bottom: 5px;
   margin-bottom: 0px;
   font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h6 {
@@ -121,7 +140,8 @@ h6 {
   margin-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  font-size: 14px
+  font-size: 14px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .hero {
@@ -169,6 +189,7 @@ nav > div > a {
     padding: 10px;
     color: #f2f2f2;
     text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
 }
 
 nav > div > span > a {
@@ -178,6 +199,7 @@ nav > div > span > a {
     padding: 10px;
     color: #f2f2f2;
     text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .navBarContainer {
@@ -211,11 +233,11 @@ nav > div > span > a {
 }
 
 .projectImage > .first:hover {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
 }
 
 .projectImage > .second:hover {
-    transform: rotate(20deg);
+    transform: rotate(15deg);
 }
 
 
@@ -333,7 +355,7 @@ section > .contactBox {
 
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 549px) {
     .navABlock {
         display: none;
     }
@@ -368,7 +390,7 @@ section > .contactBox {
     }
 }
 
-@media only screen and (max-width: 635px) {
+@media only screen and (max-width: 657px) {
     nav > div > a, nav > div > span > a {
         padding-left: 0px;
         padding-right: 0px;
@@ -419,11 +441,17 @@ section > .contactBox {
 }
 
 
-@media only screen and (max-width: 356px) {
+@media only screen and (max-width: 361px) {
     h1 {
         font-size: 20px;
     }
     h2 {
         font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .project {
+        max-width: 520px;
     }
 }
