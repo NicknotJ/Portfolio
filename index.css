@@ -89,22 +89,25 @@ footer > a {
 }
 
 h1{
-    color: rgba(0, 0, 0, 0.985);
-    background-color: #f2f2f2;
+    color: #f2f2f2;
     font-size: 36px;
     padding: 5px;
     border-radius: 5px;
     font-weight: 600;
     font-family: 'Libre Baskerville', serif;
+    left: 50%;
+    transform: translate(-50%,-60%);
 }
 h2{
+    width: 100%;
     font-size: 24px;
-    color: rgba(0, 0, 0, 0.985);
-    background-color: #f2f2f2;
+    color: #f2f2f2;
     padding: 5px;
     border-radius: 5px;
     font-weight: 600;
     font-family: 'Libre Baskerville', serif;
+    left: 50%;
+    transform: translate(-50%, 20%);
 }
 
 h3 {
@@ -335,20 +338,13 @@ section > .contactBox {
 }
 
 @media only screen and (max-width: 500px) {
-    .bottom1 {
-      bottom: 85px;
-    }
     .blurb {
       width: 80%;
     }
     h1 {
-      left: 50%;
-      transform: translate(-50%,0);
       font-size: 24px;
     }
     h2 {
-      left: 50%;
-      transform: translate(-50%,0);
       font-size: 20px;
     }
     .heroImage {
@@ -373,22 +369,6 @@ section > .contactBox {
 @media only screen and (max-width: 600px) and (min-width: 501px) {
     .blurb {
         width: 80%;
-    }
-    .left {
-        left: 5%;
-    }
-    .right {
-        right: 5%;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .left {
-        left: 10%;
-    }
-    
-    .right {
-        right: 10%;
     }
 }
 
