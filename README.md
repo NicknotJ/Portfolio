@@ -1,6 +1,6 @@
-Hi, I'm Nick! I'm a full-stack web developer with two first names and this is the README for my personal portfolio site. My site can be found live at https://nicknotjustin.dev 
+Hi, I'm Nick! I'm a full-stack web developer with two first names and this is the README for my personal portfolio site. My site can be found live at https://nicknotjustin.dev and contains a description of my works.
 
-It's a purposefully simple site utilizing only html and css (although this is subject to change). Please give it a look!
+It's a purposefully simple site utilizing only html and css (although this is subject to change). Please give it a look and feel free to reach out to me through the contact information on the site. 
 
 Hosting Information: https://nicknotjustin.dev is currently being hosted by Netlify:
 
